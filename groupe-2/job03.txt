@@ -1,2 +1,3 @@
 tar c whoami.txt logs.txt ps.txt -f job03.tar
 tar c job03.tar who.txt -f job03-inception.tar
+tar -xf job03-inception.tar
