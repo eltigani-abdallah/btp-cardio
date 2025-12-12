@@ -1,0 +1,1 @@
+tar c whoami.txt logs.txt ps.txt -f job03.tar
