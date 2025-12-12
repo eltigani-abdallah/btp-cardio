@@ -1,0 +1,2 @@
+cat ps.txt | grep -i 'tail -f /dev/null'
+cat ps.txt | grep -v root
