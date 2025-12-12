@@ -1,0 +1,1 @@
+mkdir test0 && touch -t 202501012047 test0 && chmod u=rx,go= test0
