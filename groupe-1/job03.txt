@@ -1,1 +1,2 @@
 mkdir test0 && touch -t 202501012047 test0 && chmod u=rx,go= test0
+touch -t 202501012146 test1 && chmod u=rwx,g=x,o=r test1 && echo 123 test1
