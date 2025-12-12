@@ -4,3 +4,4 @@ cat logs.txt | cut -d' ' -f9
 cat logs.txt | sort -g
 cat logs.txt | cut -d' ' -f1|sort | uniq
 sed 's/200/OK_YOLO/g' logs.txt
+cat logs.txt | cut -d' ' -f1|sort|uniq -c
