@@ -1,2 +1,4 @@
 cat logs.txt | grep -i 192.168.0.2 && cat logs.txt | grep -i post
 cat logs.txt | grep -v 4 | grep -v 3
+cat logs.txt | cut -d' ' -f9
+cat logs.txt | sort -g
